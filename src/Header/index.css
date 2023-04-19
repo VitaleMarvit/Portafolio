@@ -1,0 +1,21 @@
+.div-header{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    align-items: center;
+    background: linear-gradient(80deg, #ff450c 0%, #ffdd09 40%, #3803ca 80%);
+    background-size: 400% 400%;
+    animation: movimiento 6s linear infinite alternate;
+    box-shadow: 0 0 1.5rem 0rem #ffdfb03a;
+}
+
+
+
+@keyframes movimiento {
+    from{
+        background-position: 0 0;
+    } to {
+        background-position: 100% 100%;
+    }
+}
+

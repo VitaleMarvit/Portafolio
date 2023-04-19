@@ -1,0 +1,202 @@
+.div-container {
+    height: 100%;
+    display: grid;
+}
+
+.div-container-image {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-perfil {
+    width: auto;
+    height: auto;
+    z-index: 997;
+    border-radius: 100%;
+    margin: 12rem 0 6rem 0;
+    box-shadow: 
+        -4.5rem -3rem 3rem -2.5rem rgba(255, 102, 41, 0.25),
+        -4rem 4.1rem 3rem -2.5rem rgba(164, 255, 89, 0.295),
+        4.9rem 4rem 3rem -2.5rem rgba(72, 249, 255, 0.25),
+        4.5rem -3rem 3rem -2.5rem rgba(234, 72, 255, 0.25),
+        0 0 6pt 4pt rgba(255, 255, 255, 0.493)
+    ;
+}
+
+@keyframes movimiento {
+    from{
+        background-position: 0 0;
+    } to {
+        background-position: 100% 100%;
+    }
+}
+
+.container-flotante-uno {
+    width: 18vw;
+    height: 11vh; 
+    background-color: rgba(221, 222, 240, 0.315);
+    backdrop-filter: blur(1rem);
+    border-radius: 1.2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+    box-shadow: 0 .6rem 1.2rem .2rem rgb(62 62 62 / 51%);
+    position: relative;
+    top: -57rem;
+    left: 25rem;
+    animation: float 3s ease-in-out infinite;
+    z-index: 998;
+}
+
+@keyframes float {
+    0% { transform: translate(0,  0rem); }
+    50%  { transform: translate(0, 1.5rem); }
+    100%   { transform: translate(0, -0rem); }
+}
+
+.p-emoji-flotante {
+    width: 100%;
+    height: 100%;
+    font-size: 5.6rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-texto {
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(17, 17, 17, 0.89);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-flotante-uno {
+    font-size: 2rem;
+}
+
+.nombre-flotante-uno {
+    font-size: 3.2rem;
+    padding-top: .4rem;
+}
+
+.container-flotante-dos {
+    width: 20vw;
+    height: 9vh;
+    background-color: rgba(221, 222, 240, 0.315);
+    backdrop-filter: blur(1rem);
+    border-radius: 1.2rem;
+    text-align: center;
+    box-shadow: 0 .6rem 1.2rem .2rem rgb(62 62 62 / 51%);
+    position: relative;
+    top: -52rem;
+    left: 81rem;
+    animation: float 3.5s ease-in-out infinite;
+    z-index: 998;
+}
+
+.p-flotante-dos {
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.6rem;
+    color: rgba(17, 17, 17, 0.89);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-flotante-tres {
+    width: 16vw;
+    height: 9vh;
+    background-color: rgba(221, 222, 240, 0.315);
+    backdrop-filter: blur(1rem);
+    border-radius: 1.2rem;
+    text-align: center;
+    box-shadow: 0 .6rem 1.2rem .2rem rgb(62 62 62 / 51%);
+    position: relative;
+    top: -82rem;
+    left: 90rem;
+    animation: float 2.5s ease-in-out infinite;
+    z-index: 998;
+}
+
+.p-flotante-tres {
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.6rem;
+    color: rgba(17, 17, 17, 0.89);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-container-text {
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.h1-container {
+    color: rgb(235, 235, 235);
+    font-size: 7.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.residencia {
+    color: #f2f6f9c4;
+    font-size: 2.8rem;
+    padding-bottom: 4rem;
+}
+
+.trabajemos {
+    font-size: 2rem;
+}
+
+.trabajemos a{
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    padding: 1.2rem 2rem;
+    border-radius: 1.2rem;
+    transition: all .3s ease-in-out;
+}
+
+.trabajemos a:hover {
+    background-color: #1767c2cb;
+    backdrop-filter: blur(1rem);
+}
+
+.icon {
+    font-size: 1.6rem;
+    padding-left: .8rem;
+    color: rgb(235, 235, 235);
+}
+
+.container-linea-uno {
+    width: 100%;
+    height: 8vh; 
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.linea-uno {
+    height: 100%;
+    border-left: solid .2rem #fff;
+    opacity: 60%;
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 0 .8rem .2rem rgba(192, 192, 192, 0.527);
+}

@@ -314,6 +314,12 @@
     display: none;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
 
 .container-parrafo-final {
     width: 100%;
@@ -321,6 +327,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-top: -1.2rem;
 }
 
 .p-final-proyectos {

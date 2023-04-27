@@ -1,5 +1,6 @@
 import {React, useState} from "react";
 import "./index.css";
+import { Link } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
@@ -42,7 +43,7 @@ function Nav() {
                         <a href="#sobremi" className="a-nav">Sobre Mi</a>
                     </li>
 
-                    <li className="li-secciones">
+                    <li className="li-secciones ultimo-li">
                         <a href="#contacto" className="a-nav">Contacto</a>
                     </li>
                 </ul>

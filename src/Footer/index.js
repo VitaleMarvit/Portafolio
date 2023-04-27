@@ -24,7 +24,7 @@ function Footer() {
                 </p>
 
                 <p className="p-rrss">
-                    <a className="a-rrss linkedin" href="https://www.linkedin.com/in/mariano-vitale-tasso-2984311b8/">
+                    <a className="a-rrss linkedin" href="https://www.linkedin.com/in/mariano-vitale-tasso/">
                         Linkedin
                     </a>
                 </p>

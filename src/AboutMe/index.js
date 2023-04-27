@@ -22,22 +22,22 @@ function SobreMi() {
                 <div className="container-conjunto-cuadros">
                     <div className="container-cuadros uno" data-aos="zoom-in" data-aos-offset="200">
                         <h2 className="titulo-cuadro-uno">Educacion</h2>
-                        <p className="p-cuadros">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className="p-cuadros">Estudiante de la escuela de <span>Desarrollo Web</span>, especializado en Front-end con React.Js; En la plataforma web <span>"Platzi"</span>.</p>
                     </div>
 
                     <div className="container-cuadros dos" data-aos="zoom-in" data-aos-offset="200">
-                        <h2 className="titulo-cuadro-dos">Lorem</h2>
-                        <p className="p-cuadros">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h2 className="titulo-cuadro-dos">Skills</h2>
+                        <p className="p-cuadros">Tengo conocimientos y experiencias sobre: HTML, CSS3, JavaScript, React.js, Sass, Tailwind, Boostrap, Jest y Git</p>
                     </div>
 
                     <div className="container-cuadros tres" data-aos="zoom-in" data-aos-offset="200">
                         <h2 className="titulo-cuadro-tres">Musica</h2>
-                        <p className="p-cuadros">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className="p-cuadros">Soy un gran amante de la musica y los instrumentos, escucho muchos generos de música aunque mi favorito es la Electronica. En mis tiempos libres soy Dj y productor de este genero.</p>
                     </div>
 
                     <div className="container-cuadros cuatro" data-aos="zoom-in" data-aos-offset="200">
-                        <h2 className="titulo-cuadro-cuatro">Lorem</h2>
-                        <p className="p-cuadros">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h2 className="titulo-cuadro-cuatro">Yo</h2>
+                        <p className="p-cuadros">Me considero una persona muy constante, perseverante, divertida y feliz. Con mucha pasciencia para resolver las cosas a la hora de presentarse un problema .</p>
                     </div>
                 </div>
 

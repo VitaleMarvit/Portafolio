@@ -32,19 +32,55 @@ function Nav() {
                 
                 <ul className={hamburguer ? "ul-secciones show" : "ul-secciones"} >
                     <li className="li-secciones">
-                        <a href="#services" className="a-nav">Servicios</a>
+                        <a 
+                            href="#services"
+                            onClick={() => {
+                                return (
+                                    setHamburguer(!hamburguer),
+                                    setHamEffect(!hamEffect)
+                                )    
+                            }}
+                            className="a-nav"
+                        >Servicios</a>
                     </li>
 
                     <li className="li-secciones">
-                        <a href="#proyectos" className="a-nav">Proyectos</a>
+                        <a 
+                            href="#proyectos"
+                            onClick={() => {
+                                return (
+                                    setHamburguer(!hamburguer),
+                                    setHamEffect(!hamEffect)
+                                )    
+                            }}
+                            className="a-nav"
+                        >Proyectos</a>
                     </li>
 
                     <li className="li-secciones">
-                        <a href="#sobremi" className="a-nav">Sobre Mi</a>
+                        <a 
+                            href="#sobremi"
+                            onClick={() => {
+                                return (
+                                    setHamburguer(!hamburguer),
+                                    setHamEffect(!hamEffect)
+                                )    
+                            }}
+                            className="a-nav"
+                        >Sobre Mi</a>
                     </li>
 
                     <li className="li-secciones ultimo-li">
-                        <a href="#contacto" className="a-nav">Contacto</a>
+                        <a 
+                            href="#contacto"
+                            onClick={() => {
+                                return (
+                                    setHamburguer(!hamburguer),
+                                    setHamEffect(!hamEffect)
+                                )    
+                            }}
+                            className="a-nav"
+                        >Contacto</a>
                     </li>
                 </ul>
 

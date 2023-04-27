@@ -22,22 +22,22 @@ function SobreMi() {
                 <div className="container-conjunto-cuadros">
                     <div className="container-cuadros uno" data-aos="zoom-in" data-aos-offset="200">
                         <h2 className="titulo-cuadro-uno">Educacion</h2>
-                        <p className="p-cuadros">Estudiante de la escuela de <span>Desarrollo Web</span>, especializado en Front-end con React.Js; En la plataforma web <span>"Platzi"</span>.</p>
+                        <p className="p-cuadros">Estudiante de la escuela de <span className="span-about-me">Desarrollo Web</span>, me he especializado en el desarrollo de Front-end con React.js; En la plataforma web <span className="span-about-me">"Platzi"</span>.</p>
                     </div>
 
                     <div className="container-cuadros dos" data-aos="zoom-in" data-aos-offset="200">
                         <h2 className="titulo-cuadro-dos">Skills</h2>
-                        <p className="p-cuadros">Tengo conocimientos y experiencias sobre: HTML, CSS3, JavaScript, React.js, Sass, Tailwind, Boostrap, Jest y Git</p>
+                        <p className="p-cuadros">Tengo conocimientos y experiencias sobre: <span className="span-about-me">HTML, CSS3, JavaScript, React.js, Sass, Tailwind, Boostrap, Jest y Git</span></p>
                     </div>
 
                     <div className="container-cuadros tres" data-aos="zoom-in" data-aos-offset="200">
                         <h2 className="titulo-cuadro-tres">Musica</h2>
-                        <p className="p-cuadros">Soy un gran amante de la musica y los instrumentos, escucho muchos generos de música aunque mi favorito es la Electronica. En mis tiempos libres soy Dj y productor de este genero.</p>
+                        <p className="p-cuadros">Soy un gran amante de la musica y los instrumentos, escucho muchos generos de música aunque mi favorito es la Electronica. En mi tiempo libre, me dedico a ser <span className="span-about-me">DJ y productor</span> de música electrónica.</p>
                     </div>
 
                     <div className="container-cuadros cuatro" data-aos="zoom-in" data-aos-offset="200">
                         <h2 className="titulo-cuadro-cuatro">Yo</h2>
-                        <p className="p-cuadros">Me considero una persona muy constante, perseverante, divertida y feliz. Con mucha pasciencia para resolver las cosas a la hora de presentarse un problema .</p>
+                        <p className="p-cuadros">Me considero una persona muy <span className="span-about-me">Constante, Perseverante, Divertida y Feliz.</span> Con mucha paciencia para resolver los problemas que puedan surgir.</p>
                     </div>
                 </div>
 
